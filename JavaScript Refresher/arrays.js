@@ -33,3 +33,9 @@ console.log(copiedHobbies2);
 //rest operator
 const toArray = (...args) => args;
 console.log(toArray(1, 3, 4, 6, 8, 9));
+
+//Array Destructuring
+//In arrays we can use any names we want for the new global values
+//Values are extracted by position
+const [hobby1, hobby2] = hobbies;
+console.log(hobby1, hobby2);
